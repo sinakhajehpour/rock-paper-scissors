@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./javascriptfiles.js"></script>
+</head>
+
+<body>
+    <h1>
+        Rock, Paper,Scissors
+    </h1>
+    <p>Rock, Paper Scissors?</p>
+    <select id="selectpick">
+        <option value="">-- Select country --</option>
+        <option value="Rock">Rock</option>
+        <option value="Paper">Paper</option>
+        <option value="Scissors">Scissors</option>
+    </select>
+
+    <button id="btn" onclick="shoot()">
+        shoot
+    </button>
+
+    <button id="rst" onclick="reset()">
+        reset
+    </button>
+
+    <h4>
+        You Pick:<p id="yourpick"></p>
+    </h4>
+
+    <h4>
+        Computer Pick:<p id="computerpick"></p>
+    </h4>
+
+    <h4>
+        Winer is:<p id="result"></p>
+    </h4>
+
+    <h4>
+        Your score :<p id="yourscore">0</p>
+        Computer score: <p id="compterscore">0</p>
+    </h4>
+</body>
+
+</html>
